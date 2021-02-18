@@ -18,6 +18,7 @@ class Code < ApplicationRecord
 
     Code.check_for_buzz(i)
     Code.check_for_fizz(i)
+    Code.check_for_pop(i)
     Code.check_for_fizz_buzz(i)
     Code.check_for_fizz_pop(i)
     Code.check_for_polar_bear(i)

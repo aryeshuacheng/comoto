@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file:$PROJECT_DIR$/../../../../../..//$PROJECT_DIR$/../comoto/.idea/komoto.iml" filepath="$PROJECT_DIR$/../comoto/.idea/komoto.iml" />
+      <module fileurl="file:$PROJECT_DIR$/../../../../../..//$PROJECT_DIR$/.idea/comoto.iml" filepath="$PROJECT_DIR$/.idea/comoto.iml" />
     </modules>
   </component>
 </project>
