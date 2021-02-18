@@ -14,16 +14,16 @@ class Code < ApplicationRecord
   end
 
   def self.checkForCombos(i)
-    @holder = 0
-
+    @holder = i
+    
     Code.check_for_buzz(i)
     Code.check_for_fizz(i)
     Code.check_for_pop(i)
-    Code.check_for_fizz_buzz(i)
     Code.check_for_fizz_pop(i)
+    Code.check_for_fizz_buzz(i)
     Code.check_for_polar_bear(i)
 
-    if @holder.class == String
+    if @holder != i
       puts @holder
     else
       puts i
