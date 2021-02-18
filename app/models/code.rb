@@ -9,13 +9,13 @@
 class Code < ApplicationRecord
   def self.fizz_buzz
     for i in 7..120
-      puts Code.checkForCombos(i)
+      Code.checkForCombos(i)
     end
   end
 
   def self.checkForCombos(i)
     @holder = i
-    
+
     Code.check_for_buzz(i)
     Code.check_for_fizz(i)
     Code.check_for_pop(i)
