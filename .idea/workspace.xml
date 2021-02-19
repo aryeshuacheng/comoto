@@ -27,6 +27,7 @@
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.tools" />
   </component>
   <component name="RunManager" selected="Rails.Development: comoto">
     <configuration name="Development: comoto" type="RailsRunConfigurationType" factoryName="Rails">
@@ -207,7 +208,7 @@
       <workItem from="1613686180884" duration="11000" />
       <workItem from="1613686208779" duration="4807000" />
       <workItem from="1613691305281" duration="11000" />
-      <workItem from="1613691317552" duration="1309000" />
+      <workItem from="1613691317552" duration="1796000" />
     </task>
     <servers />
   </component>
@@ -215,10 +216,14 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="805" y="311" key="FileChooserDialogImpl" timestamp="1613691315731">
+    <state x="805" y="311" key="FileChooserDialogImpl" timestamp="1613692933582">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
-    <state x="805" y="311" key="FileChooserDialogImpl/0.0.2048.1112/-3840.-364.1707.920@0.0.2048.1112" timestamp="1613691315731" />
+    <state x="805" y="311" key="FileChooserDialogImpl/0.0.2048.1112/-3840.-364.1707.920@0.0.2048.1112" timestamp="1613692933582" />
+    <state x="533" y="198" key="SettingsEditor" timestamp="1613692939368">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state x="533" y="198" key="SettingsEditor/0.0.2048.1112/-3840.-364.1707.920@0.0.2048.1112" timestamp="1613692939368" />
     <state x="687" y="243" width="672" height="678" key="search.everywhere.popup" timestamp="1613688352518">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>

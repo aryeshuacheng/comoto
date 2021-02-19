@@ -16,18 +16,22 @@ class Code < ApplicationRecord
   def self.checkForCombos(i)
     @holder = i
 
-    Code.check_for_buzz(i)
-    Code.check_for_fizz(i)
-    Code.check_for_pop(i)
-    Code.check_for_fizz_pop(i)
-    Code.check_for_fizz_buzz(i)
-    Code.check_for_polar_bear(i)
+    Code.inspect(i)
 
     if @holder != i
       puts @holder
     else
       puts i
     end
+  end
+
+  def self.inspect(i)
+    Code.check_for_buzz(i)
+    Code.check_for_fizz(i)
+    Code.check_for_pop(i)
+    Code.check_for_fizz_pop(i)
+    Code.check_for_fizz_buzz(i)
+    Code.check_for_polar_bear(i)
   end
 
   def self.check_for_polar_bear(i)
